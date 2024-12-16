@@ -28,13 +28,13 @@ nav
   height: 50vh;
   flex:var(--sidebar-flex);
   padding: 30px;
-  background: rgb(238,103,143);
-  background: linear-gradient(90deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+  background: url(img/logovalleyball.jpg);
+  
 }
 .condiv
 {
   padding: 100px ;
-  background-color: #747b96;
+  background:url(img/cover.jpg);
   flex:var(--condiv-flex);
 }
 
@@ -51,11 +51,22 @@ nav
   border-radius: 10%;
   width: 400px;
   margin: 30px;
+ 
 }
+picture
+{
+  border-radius: 10%;
+  width: 200px;
+  height: 25vh;
+  margin-left: 800px;
+  margin-bottom: 30px;
+}
+
 .typingeffect
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
+  color: rgb(246, 238, 240);
 }
 
 nav ul{
@@ -69,22 +80,70 @@ nav ul li
 {
   margin:40px;
 }
+nav ul li:hover
+{
+  color: #4879c3;
+  background-color: #d5b1d8;
+  box-shadow: 0 10px 20px rgba(246, 242, 242, 0.19), 0 6px 6px rgba(28, 25, 25, 0.23);
+}
 
 a
 {
   text-decoration: none;
-  color: rgb(40, 81, 71);
+  color: rgb(1, 9, 1);
 }
 
-.subtopic
+h1.subtopic
 {
   margin:10px 10px 30px 10px !important;
+  color: #d5b1d8;
+  
 }
 p{
   font-size: var(--fontsize-p);
+
 }
-h1,h2,h3,h4,p{
+p:hover
+{
+  color: #3a4960;
+  background-color: rgb(246, 238, 240);
+  box-shadow: 0 50px 60px rgba(217, 166, 166, 0.19), 0 6px 6px rgba(228, 208, 208, 0.23);
+  font-size: 100;
+}
+h2,h3,h4,p{
   margin: 10px;
+  color: rgb(234, 228, 228);
+}
+h3:hover
+{
+  color: #3a4960;
+  background-color: rgb(246, 238, 240);
+  box-shadow: 0 50px 60px rgba(217, 166, 166, 0.19), 0 6px 6px rgba(228, 208, 208, 0.23);
+  font-size: 100;
+}h2:hover
+{
+  color: #3a4960;
+  background-color: rgb(246, 238, 240);
+  box-shadow: 0 50px 60px rgba(217, 166, 166, 0.19), 0 6px 6px rgba(228, 208, 208, 0.23);
+  font-size: 100;
+}
+h4:hover
+{
+  color: #3a4960;
+  background-color: rgb(246, 238, 240);
+  box-shadow: 0 50px 60px rgba(217, 166, 166, 0.19), 0 6px 6px rgba(228, 208, 208, 0.23);
+  font-size: 100;
+}
+h1{
+  margin: 10px;
+  color: rgb(8, 8, 8);
+}h1:hover
+{
+  color: #3a4960;
+  background-color: rgb(251, 242, 245);
+  box-shadow: 0 50px 60px rgba(217, 166, 166, 0.19), 0 6px 6px rgba(228, 208, 208, 0.23);
+  
+  
 }
 .social
 {
@@ -97,11 +156,12 @@ h1,h2,h3,h4,p{
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9c9c;
+  color: #090f0f;
 }
 .social i:hover
 {
-  color: #ce2c2c;
+  color: #0dec49;
+  
 }
 .widecard
 {
@@ -109,11 +169,11 @@ h1,h2,h3,h4,p{
   display: flex;
   margin:30px 0px 30px 0px;
 }
-.widecard:hover
+.h1.widecard:hover
 {
-  color: #3a4960;
-  background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: #4879c3;
+  background-color: #d5b1d8;
+  box-shadow: 0 10px 20px rgba(246, 242, 242, 0.19), 0 6px 6px rgba(28, 25, 25, 0.23);
 }
 .active
 {
@@ -121,8 +181,16 @@ h1,h2,h3,h4,p{
 }
 .skills ul li
 {
-  list-style-type:none;
-  margin:30px;
+  border:0px solid #9a9b9c;
+  display: flex;
+  margin:30px 0px 30px 0px;
+  color: white;
+}
+.skills ul li:hover
+{
+  color: #3a4960;
+  background-color: rgb(251, 242, 245);
+
 }
 
 @media all and (max-width: 450px) {
