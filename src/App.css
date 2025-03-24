@@ -30,10 +30,11 @@ nav{
 {
   height: 70vh;
   padding: 100px ;
-  background-color: rgb(79, 51, 146);
+  background-color:blueviolet;
   flex:var(--condiv-flex);
 }
 .condiv2
+
 {
   height: 70vh;
   padding: 100px ;
