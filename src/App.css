@@ -30,7 +30,7 @@ nav{
 {
   height: 70vh;
   padding: 100px ;
-  background:url(img/prommer\ daw.jpg);
+  background-color: rgb(214, 154, 206);
   flex:var(--condiv-flex);
 }
 .condiv2
