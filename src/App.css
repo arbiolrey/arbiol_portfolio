@@ -26,16 +26,13 @@ nav{
   background-color: rgb(234, 16, 208);
 }
 
-.condiv
-{
+.condiv{
   height: 70vh;
   padding: 100px ;
   background-color:blueviolet;
   flex:var(--condiv-flex);
 }
-.condiv2
-
-{
+.condiv2{
   height: 70vh;
   padding: 100px ;
 background-color: rgb(77, 80, 141);
