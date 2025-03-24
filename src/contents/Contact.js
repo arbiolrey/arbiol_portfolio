@@ -5,9 +5,10 @@ class Contact extends Component {
     render() {
         return (
             <div className="condiv5"> 
-            <img src={picture9} alt="Pic" className="picture9"></img>
+    
             <h2 className="subtopic2">Contact Me!</h2>
-
+            
+            <img src={picture9} alt="Pic" className="picture9"></img>
             
             <div class="input-box"> 
              </div>
