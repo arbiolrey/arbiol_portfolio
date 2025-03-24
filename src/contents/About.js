@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
-import picture from '../img/clarr.jpg';
-
+import picture from '../img/tuga.JPG';
 
 
 
 class About extends Component {
     render() {
         return (
-            <div className="condiv">
-            <img src={picture} alt="Pic" className="picure"></img>
-            <h2 className="subtopic">About Me</h2>
-            <h4>Hey there,</h4>
-            <h1>I'm Ma Clarissa  Ericka Orcullo </h1>
-            <h3>Student <u>Nemsu-Lc</u> | FIGMA <u>Simple Creator</u></h3>
+            <div className="condiv4">
+            <h2>Hi welcome my about,</h2>
+            <img src={picture} alt="Pic" className="picture"></img>
+            <h3>About My Self :</h3>
+            <h3>I'm Rey Sinso Arbiol </h3>
+            <h3>I'm 26 yrs old now </h3>
             <br></br>
-            <p>I started my journey in  computers sciences from an young age,
-            now I’m 19 years old, Pursuing my Degree in
-            Nemsu North Estern mindanao State University 
-            </p>
+            <p1>         I started my journey in  computers sciences from an young age,
+                now I’m 23 years old, Pursuing my Degree in Nemsu North Estern mindanao State University, 
+            </p1>
             
             </div>
             )
