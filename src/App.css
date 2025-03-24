@@ -234,7 +234,7 @@ p7{
   font-size: var(--fontsize-p);
   color: #0f0e0f;
   opacity: 0; 
-  margin-left: 47%;
+  margin-left: 43%;
   animation: slideRight .5s ease forwards;
   animation-delay: .1s;
 }
