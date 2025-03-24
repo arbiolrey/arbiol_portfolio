@@ -297,8 +297,8 @@ h1{
 }.picture9
 {
   border-radius: 10%;
-  width: 100px;
-  height: 20vh;
+  width: 150px;
+  height: 50vh;
   margin-left: 75px;
   opacity: 0;
   animation: zoomIn 1s ease forwards;
