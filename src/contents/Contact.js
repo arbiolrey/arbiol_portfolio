@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div className="condiv5"> 
             <img src={picture9} alt="Pic" className="picture9"></img>
-            <h1 className="subtopic">Contact <span>Me!</span></h1>
+            <h1 className="subtopic">Contact Me!</h1>
 
             
             <div class="input-box"> 
