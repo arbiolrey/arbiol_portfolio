@@ -19,13 +19,10 @@ body{
   display: flex;
   width: 100vw;
   min-height: 100vh;
-
-
 }
 nav{
   background-color: rgb(234, 16, 208);
 }
-
 .condiv{
   height: 70vh;
   padding: 100px ;
@@ -64,8 +61,7 @@ background-color: rgb(97, 115, 186);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  
+  align-items: center;  
 }
 .profilepic
 {
@@ -88,7 +84,6 @@ background-color: rgb(97, 115, 186);
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay:2s;
-
 }
 .typingeffect
 {
