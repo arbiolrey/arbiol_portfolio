@@ -195,7 +195,7 @@ p1{
   font-size: var(--fontsize-p);
   color: #deb1e4;
 }
-.subtopic2 h2{
+.subtopic2 .h2{
   font-size: var(--fontsize-p);
   color: #f6f6f6;
   margin-left: 05%;
