@@ -230,6 +230,14 @@ p2{
   animation-delay: .1s;
 }
 
+p7{
+  font-size: var(--fontsize-p);
+  color: #ede5ee;
+  opacity: 0;
+  animation: slideRight .5s ease forwards;
+  animation-delay: .1s;
+}
+
 h1{
   margin-left: 10%;
     color: rgb(237, 237, 244);
