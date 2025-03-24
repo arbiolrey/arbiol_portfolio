@@ -26,7 +26,7 @@ class Skills extends Component {
           
             <p2> Passionate about crafting seamless digital experiences, I specialize in UI/UX design with a strong focus
             on intuitive and user-friendly interfaces. Combining clean, efficient code with modern design principles, I 
-            create visually appealing and highly functional web applications. From front-end development using HTML, CSS,
+            create visually appealing and highly functional web applications. From front-end development using HTML, CSS,KOTLIN, ANDROID STUDIO,
             JavaScript, and React to optimizing user experiences with responsive and accessible designs, I strive to bridge 
             the gap between aesthetics and functionality. Explore my portfolio to see how I bring ideas to life through thoughtful
             design and innovative coding solutions."</p2>
